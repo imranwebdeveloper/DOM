@@ -4,6 +4,10 @@ const withdraw = document.getElementById("withdraw");
 const totalDepositElement = document.getElementById("deposit-amount");
 
 document.querySelector(".deposit-btn").addEventListener("click", () => {
+  console.log(inputAmount.value);
+  if (inputAmount.value === "") {
+    return alert("Please enter your deposit amount");
+  }
   const totalInput = parseFloat(inputAmount.value);
 
   const totalBalance = parseFloat(balance.innerText) + totalInput;
@@ -14,6 +18,9 @@ document.querySelector(".deposit-btn").addEventListener("click", () => {
   inputAmount.value = "";
 });
 document.querySelector(".withdraw-btn").addEventListener("click", () => {
+  if (inputAmount.value === "") {
+    return alert("Please enter your withdraw amount");
+  }
   const totalInput =
     parseFloat(inputAmount.value) + parseFloat(withdraw.innerText);
   const totalBalance = parseFloat(balance.innerText) - totalInput;
