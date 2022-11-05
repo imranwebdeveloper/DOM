@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgb(233, 247, 233), rgb(253, 211, 211));
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* justify-items: center; */
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.head {
+  color: blue;
+  padding: 0;
+}
+.jokes {
+  height: 250px;
+  color: darkgreen;
+}

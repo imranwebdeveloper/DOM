@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aj {
+  padding: 2px;
+  height: 30px;
+  border: 0.5px solid green;
+  width: 200px;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+}
+.aj::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: red;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: gorw 5s linear infinite;
+}
+@keyframes gorw {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+p {
+  text-align: center;
+}
+
+/* .aj::after {
+  content: "";
+  background-color:red;
+  mix-blend-mode: difference;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scalex(0);
+  transform-origin: center left;
+  animation: grow 5s linear infinite;
+}
+@keyframes grow {
+  to {
+    transform: scalex(1);
+  }
+} */

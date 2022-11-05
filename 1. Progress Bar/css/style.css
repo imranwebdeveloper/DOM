@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.progerss {
+  background-color: aliceblue;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 3px -3px;
+}
+.progressbar {
+  border-radius: 20px;
+  padding-right: 5px;
+  background: palevioletred;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  opacity: 0;
+  transition: 1s ease 0.2s;
+  color: aliceblue;
+  font-weight: bold;
+}
