@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Tab with JavaScript</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron my-jumbotron">
+        <section class="css-tab">
+          <div class="btn-gorup my-btnGroup" role="group">
+            <button class="btn activeB" data-id="mission">Mission</button>
+            <button class="btn" data-id="vision">Vision</button>
+            <button class="btn" data-id="goal">Goal</button>
+          </div>
+          <div class="testAria">
+            <section class="sectionP activeT" id="mission">
+              Mission
+              <p>
+                Action Center lists important messages about security and
+                maintenance settings that need your attention. Red items in
+                Action Center are labeled Important, and indicate significant
+                issues that should be addressed soon, such as an outdated
+                antivirus program that needs updating. Yellow items are
+                suggested tasks that you should consider addressing, like
+                recommended maintenance tasks.
+              </p>
+            </section>
+            <section class="sectionP" id="vision">
+              Vision
+              <p>
+                If you'd like Windows to install important updates as they
+                become available, turn on automatic updating. Important updates
+                provide significant benefits, such as improved security and
+                reliability. You can also set Windows to automatically install
+                recommended updates, which can address noncritical problems and
+                help enhance your computing experience. Optional updates are not
+                downloaded or installed automatically. To learn more about the
+                types of updates that Microsoft publishes, go to this Knowledge
+                Base article on the Microsoft Help and Support website.
+              </p>
+            </section>
+            <section class="sectionP" id="goal">
+              Goal
+              <p>
+                When you are logged on to Windows with a standard account, you
+                can do almost anything that you can do with an administrator
+                account, but if you want to do something that affects other
+                users of the computer, such as installing software or changing
+                security settings, Windows might ask you to provide a password
+                for an administrator account.
+              </p>
+            </section>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

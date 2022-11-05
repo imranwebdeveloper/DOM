@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.my-btnGroup {
+  width: 100%;
+  text-align: center;
+  background: palevioletred;
+  /* padding: 7px; */
+  border-radius: 5px;
+}
+.btn {
+  color: white;
+}
+.activeB {
+  background: white;
+  color: brown;
+}
+
+.sectionP {
+  padding: 10px;
+  background: white;
+  display: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+p {
+  text-align: justify;
+}
+.sectionP.activeT {
+  display: block;
+}

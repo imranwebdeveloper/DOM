@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aj2 {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dj {
+  width: 300px;
+  height: 300px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 50px;
+}
+button {
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+}

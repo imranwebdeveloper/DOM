@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.my-container {
+  text-align: center;
+  margin-top: 100px;
+}
+.card {
+  border: 1px solid green;
+}
+.head {
+  color: darkgreen;
+}
+.give {
+  /* background: white; */
+  padding: 5px;
+  color: darkred;
+  border-radius: 10px;
+  /* margin: 20px */
+}
+.countDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: white;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: red;
+  border: 1px solid green;
+}
+.time {
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.days {
+  color: green;
+}
+.hours {
+  color: crimson;
+}
+.minutes {
+  color: green;
+}
+.seconds {
+  color: crimson;
+}
